@@ -1,0 +1,27 @@
+
+:root{
+    --signal-red:#dc3545;
+    --signal-yellow:#ffc107;
+    --signal-green:#198754;
+}
+body{font-family:"Atkinson Hyperlegible", sans-serif;}
+h1,h2,h3,h4,h5{font-weight:700;}
+.card-help{background:#f8f9fa;border-left:4px solid #0d6efd;}
+.form-text.small-justification{min-height:1.25rem;}
+.signal-badge{display:inline-flex;align-items:center;gap:.45rem;font-weight:600;}
+.signal-dot{width:.85rem;height:.85rem;border-radius:50%;display:inline-block;}
+.signal-red .signal-dot{background:var(--signal-red);}
+.signal-yellow .signal-dot{background:var(--signal-yellow);}
+.signal-green .signal-dot{background:var(--signal-green);}
+.factor-card{border:1px solid rgba(0,0,0,.08);border-radius:1rem;background:#fff;height:100%;}
+.factor-card .card-body{padding:1.25rem;}
+.factor-header{display:flex;justify-content:space-between;align-items:flex-start;gap:1rem;}
+.weight-pill{white-space:nowrap;}
+.result-kpi{border-radius:1rem;padding:1rem;background:#fff;border:1px solid rgba(0,0,0,.08);height:100%;}
+.table td,.table th{vertical-align:top;}
+.preset-card{border:1px dashed #6c757d;background:#fcfcfd;}
+.chart-card{min-height:460px;}
+textarea{min-height:90px;}
+.justification-required{border-color:#dc3545;}
+.sticky-actions{position:sticky;bottom:0;z-index:10;background:rgba(248,249,250,.95);backdrop-filter: blur(6px);border-top:1px solid rgba(0,0,0,.08);padding-top:1rem;margin-top:1rem;}
+.small-muted{color:#6c757d;font-size:.925rem;}
